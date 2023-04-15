@@ -180,7 +180,7 @@ button a{
     display: flex;
 }
 
-@media only screen and  (max-width:730px){
+@media only screen and  (max-width:740px){
     
     .container{
         padding: 20px;
@@ -195,22 +195,38 @@ button a{
     .future-forecast .today .temp{
         font-size: 16px;
     }
-
-    .date-container .time{
-        font-size: 50px;
+    nav{
+        width: 100%;
+        padding: 0px;
+        height: 13vh;
+     }
+    nav .time{
+        font-size: 60px;
+        margin-top: 15px;
+        margin-left: 10px;
     }
-
-    .date-container #am-pm{
-        font-size: 20px;
+    .time{
+        margin-left: 0px;
+        /* background-color: red; */
+        display: flex;
+        height: 70px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
-
+    .time #am-pm{
+        font-size: 10px;
+    }
+    .date{
+        margin-left: 22px;
+    }
     .date-container .date{
         font-size: 20px;
     }
 
     .place-container{
         text-align: end;
-        margin-top: 20px;
+        margin-right: 8PX;
     }
 
     .place-container .time-zone{
